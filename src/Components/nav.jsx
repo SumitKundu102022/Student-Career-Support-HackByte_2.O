@@ -5,9 +5,16 @@ import React from "react";
 
 function navbar() {
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-gray-800 p-0"> 
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center">
+          <span>
+            <img
+              src="/src/assets/logo2.png"
+              alt="Image 1"
+              className="w-16 h-16 rounded-lg transition duration-300 text-left transform hover:scale-105"
+            />
+          </span>
           <div className="flex-shrink-0">
             <span className="text-white text-xl">Student Career Support</span>
           </div>
