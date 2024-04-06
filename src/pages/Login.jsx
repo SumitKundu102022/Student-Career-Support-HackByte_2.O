@@ -3,6 +3,7 @@
 import React from "react";
 import Navbar from "../Components/nav";
 import RegistrationForm from "../components/RegistrationForm"; // Assuming you have a component for the registration form
+import Footer from "../Components/Footer";
 
 const Login = () => {
   return (
@@ -13,6 +14,7 @@ const Login = () => {
         <LoginForm />
         {/* Other components for registration page */}
       </div>
+      <Footer/>
     </div>
   );
 };

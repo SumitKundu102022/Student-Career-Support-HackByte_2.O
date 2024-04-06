@@ -3,7 +3,7 @@
 
 import React from "react";
 
-function Navbar() {
+function navbar() {
   return (
     <nav className="bg-gray-800 p-4">
       <div className="max-w-7xl mx-auto">
@@ -41,5 +41,7 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default navbar;
+
+
 
