@@ -8,6 +8,7 @@ import Header from "./Components/Header";
 import Navbar from "./Components/nav";
 import HeroSection from "./Components/HeroSection";
 import ImageSection from "./Components/ImageSection";
+import StudentCounseling from "./Components/StudentCounseling";
 
 function App() {
  
@@ -18,7 +19,8 @@ function App() {
         {/* <Header /> */}
         <Navbar />
         <HeroSection />
-        <ImageSection/>
+        <ImageSection />
+        <StudentCounseling/>
       </div>
       
      
