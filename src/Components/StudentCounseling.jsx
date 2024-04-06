@@ -31,10 +31,10 @@ const StudentCounseling = () => {
 
       {/* Alumni Portrait Image Columns */}
       <div className="mt-12">
-        <h2 className="text-3xl font-bold mb-4 text-center">Alumni</h2>
+        <h2 className="text-3xl font-bold mb-4 text-center">Alumni mentorship program</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Alumni Image Cards */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-lg flex flex-col items-center">
+          <div className="bg-white rounded-lg overflow-hidden shadow-lg flex flex-col items-center transition duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-xl">
             <img
               src="https://www.iimcal.ac.in/sites/default/files/images/image-6.jpg"
               alt="Alumni 1"
@@ -59,7 +59,7 @@ const StudentCounseling = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-lg overflow-hidden shadow-lg flex flex-col items-center">
+          <div className="bg-white rounded-lg overflow-hidden shadow-lg flex flex-col items-center transition duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-xl">
             <img
               src="https://acr.iitm.ac.in/wp-content/gallery/csr-live-summit-iit-madras-official-knowledge-partner-on-september-29-2023/1S6A1262.JPG"
               alt="Alumni 2"
@@ -83,7 +83,7 @@ const StudentCounseling = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-lg overflow-hidden shadow-lg flex flex-col items-center">
+          <div className="bg-white rounded-lg overflow-hidden shadow-lg flex flex-col items-center transition duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-xl">
             <img
               src="https://media.almabaseapp.com/281/alumsite/photo_gallery/5248/VJP_0428.JPG-3a8e20770f474f399741a7fca9f36fa4.JPG"
               alt="Alumni 3"

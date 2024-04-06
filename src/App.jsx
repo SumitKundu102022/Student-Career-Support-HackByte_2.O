@@ -9,21 +9,27 @@ import Navbar from "./Components/nav";
 import HeroSection from "./Components/HeroSection";
 import ImageSection from "./Components/ImageSection";
 import StudentCounseling from "./Components/StudentCounseling";
+import LoanScholarship from "./Components/LoanScholarship";
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import Navbar from './components/Navbar';
+// import Home from './pages/Home'; // Import other pages like Home
+// import Register from './pages/Register'; // Import Register page
+// import {Routes} from 'react-router-dom'
+import BestCourses from "./Components/BestCources";
 
-function App() {
+const App = () => {
  
 
   return (
     <>
-      <div>
-        {/* <Header /> */}
-        <Navbar />
+      {/* <Header /> */}
+      <Navbar />
         <HeroSection />
         <ImageSection />
-        <StudentCounseling/>
-      </div>
+        <StudentCounseling />
+      <LoanScholarship />
+      <BestCourses/>
       
-     
     </>
   );
 }
