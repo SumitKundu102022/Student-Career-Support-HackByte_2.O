@@ -1,4 +1,7 @@
 import React from "react";
+import src from "../assets/scholarship-for-students.jpg";
+import src1 from "../assets/img2.webp";
+import src2 from "../assets/img3.png";
 
 const ImageSection = () => {
   return (
@@ -6,7 +9,7 @@ const ImageSection = () => {
       <div className="flex justify-between gap-2">
         <div className="w-1/3 relative">
           <img
-            src="/src/assets/scholarship-for-students.jpg"
+            src={src}
             alt="Image 1"
             className="w-full h-64 rounded-lg transition duration-300 transform hover:scale-105"
           />
@@ -18,7 +21,7 @@ const ImageSection = () => {
         </div>
         <div className="w-1/3 relative">
           <img
-            src="/src/assets/img2.webp"
+            src={src1}
             alt="Image 2"
             className="w-full h-64 rounded-lg transition duration-300 transform hover:scale-105"
           />
@@ -30,7 +33,7 @@ const ImageSection = () => {
         </div>
         <div className="w-1/3 relative">
           <img
-            src="/src/assets/img3.png"
+            src={src2}
             alt="Image 3"
             className="w-full h-64 rounded-lg transition duration-300 transform hover:scale-105"
           />

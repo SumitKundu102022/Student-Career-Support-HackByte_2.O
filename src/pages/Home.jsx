@@ -5,9 +5,10 @@ import StudentCounseling from './components/StudentCounseling';
 import LoanScholarship from './components/LoanScholarship';
 import BestCourses from './components/BestCourses';
 
-function Main() {
+function Home() {
     return (
         <div>
+            <Navbar/>
             <HeroSection />
             <ImageSection />
             <StudentCounseling />
@@ -17,4 +18,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default Home;
